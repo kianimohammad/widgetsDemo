@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WidgetsDemo</string>
+    <string-array name="colors">
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Black</item>
+    </string-array>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="black">Black</string>
+</resources>
