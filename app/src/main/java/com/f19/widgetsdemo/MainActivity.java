@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 //        int id = radioGroup.getCheckedRadioButtonId();
         int id = view.getId();
         Log.i("idradio", "itemChecked: " + id);
+        Log.i("test", "itemChecked: just for test");
         switch (id) {
             case R.id.yellow:
                 Toast.makeText(this, "Yellow", Toast.LENGTH_SHORT).show();
