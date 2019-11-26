@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private String TAG = "test"
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         final Spinner spinner = findViewById(R.id.color_spinner);
         Button btn = findViewById(R.id.btn);
+
+        Log.i(TAG, "onCreate: another test");
 
         final CheckBox checkBox = findViewById(R.id.check_cond);
         btn.setOnClickListener(new View.OnClickListener() {
